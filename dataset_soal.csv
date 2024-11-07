@@ -1,7 +1,0 @@
-ID_Soal,Isi_Soal,Opsi_A,Opsi_B,Jawaban_Benar,ID_Materi
-101,Apa itu syntax dalam Python?,Aturan,Tipe Data,Aturan,1
-102,Tipe data apa yang digunakan untuk teks?,Integer,String,String,1
-103,For loop digunakan untuk apa?,Pengulangan,Fungsi,Pengulangan,2
-104,Regex digunakan untuk apa?,Pencarian,Penyimpanan,Pencarian,3
-105,Fungsi apa untuk mencetak output?,Print(),Input(),print(),2
-106,Operator mana yang digunakan untuk pembagian bulat (integer division) di Python?,/,//,//,2
