@@ -1,0 +1,106 @@
+user_id,soal_id,hasil,materi_id,tingkat_kesulitan,nama_materi
+1,101,benar,1,1,Pengantar Python
+2,102,salah,1,1,Pengantar Python
+3,103,salah,1,2,Pengantar Python
+4,104,benar,1,2,Pengantar Python
+5,105,salah,1,3,Pengantar Python
+1,106,salah,1,3,Pengantar Python
+2,107,benar,2,1,Tipe Data
+3,108,benar,2,1,Tipe Data
+4,109,salah,2,1,Tipe Data
+5,110,salah,2,2,Tipe Data
+1,111,benar,2,2,Tipe Data
+2,112,benar,2,3,Tipe Data
+3,113,salah,2,3,Tipe Data
+4,114,salah,3,1,Struktur Kontrol
+5,115,salah,3,1,Struktur Kontrol
+1,116,benar,3,1,Struktur Kontrol
+2,117,salah,3,2,Struktur Kontrol
+3,118,benar,3,2,Struktur Kontrol
+4,119,benar,3,3,Struktur Kontrol
+5,120,benar,3,3,Struktur Kontrol
+1,121,salah,4,1,Fungsi
+2,122,salah,4,1,Fungsi
+3,123,benar,4,2,Fungsi
+4,124,benar,4,2,Fungsi
+5,125,benar,4,3,Fungsi
+1,126,salah,4,3,Fungsi
+2,127,salah,4,1,Fungsi
+3,128,benar,5,1,OOP
+4,129,benar,5,1,OOP
+5,130,salah,5,2,OOP
+1,131,salah,5,2,OOP
+2,132,salah,5,3,OOP
+3,133,benar,5,3,OOP
+4,134,salah,1,1,Pengantar Python
+5,135,benar,1,1,Pengantar Python
+1,136,benar,1,1,Pengantar Python
+2,137,benar,1,2,Pengantar Python
+3,138,salah,1,2,Pengantar Python
+4,139,salah,1,3,Pengantar Python
+5,140,benar,2,3,Tipe Data
+1,141,benar,2,1,Tipe Data
+2,142,salah,2,1,Tipe Data
+3,143,salah,2,2,Tipe Data
+4,144,benar,2,2,Tipe Data
+5,145,benar,2,3,Tipe Data
+1,146,salah,2,3,Tipe Data
+2,147,salah,3,1,Struktur Kontrol
+3,148,benar,3,1,Struktur Kontrol
+4,149,benar,3,1,Struktur Kontrol
+5,150,salah,3,2,Struktur Kontrol
+1,151,salah,3,2,Struktur Kontrol
+2,152,salah,3,3,Struktur Kontrol
+3,153,benar,3,3,Struktur Kontrol
+4,154,salah,4,1,Fungsi
+5,155,benar,4,1,Fungsi
+1,156,benar,4,1,Fungsi
+2,157,benar,4,2,Fungsi
+3,158,salah,4,2,Fungsi
+4,159,salah,4,3,Fungsi
+5,160,benar,4,3,Fungsi
+1,161,benar,5,1,OOP
+2,162,salah,5,1,OOP
+3,163,salah,5,2,OOP
+4,164,benar,5,2,OOP
+5,165,benar,5,3,OOP
+1,166,salah,5,3,OOP
+2,167,salah,1,1,Pengantar Python
+3,168,benar,1,1,Pengantar Python
+4,169,benar,1,1,Pengantar Python
+5,170,salah,1,2,Pengantar Python
+1,171,salah,1,2,Pengantar Python
+2,172,salah,1,3,Pengantar Python
+3,173,benar,2,3,Tipe Data
+4,174,salah,2,1,Tipe Data
+5,175,benar,2,1,Tipe Data
+1,176,benar,2,1,Tipe Data
+2,177,benar,2,2,Tipe Data
+3,178,salah,2,2,Tipe Data
+4,179,salah,2,3,Tipe Data
+5,180,benar,3,3,Struktur Kontrol
+1,181,benar,3,1,Struktur Kontrol
+2,182,salah,3,1,Struktur Kontrol
+3,183,salah,3,2,Struktur Kontrol
+4,184,benar,3,2,Struktur Kontrol
+5,185,benar,3,3,Struktur Kontrol
+1,186,salah,3,3,Struktur Kontrol
+2,187,salah,4,1,Fungsi
+3,188,benar,4,1,Fungsi
+4,189,benar,4,1,Fungsi
+5,190,salah,4,2,Fungsi
+1,191,salah,4,2,Fungsi
+2,192,salah,4,3,Fungsi
+3,193,benar,4,3,Fungsi
+4,194,salah,5,1,OOP
+5,195,benar,5,1,OOP
+1,196,benar,5,1,OOP
+2,197,benar,5,2,OOP
+3,198,salah,5,2,OOP
+4,199,salah,5,3,OOP
+5,200,benar,1,3,Pengantar Python
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
