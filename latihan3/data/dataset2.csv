@@ -1,0 +1,274 @@
+soal_id,isi_soal,tingkat_kesulitan,nama_materi,user_id,opsi_a,opsi_b,jawaban_user,jawaban_benar
+101,Apa tujuan utama dari sebuah fungsi dalam Python?,mudah,fungsi,1,Untuk mengelompokkan kode yang sering digunakan,Untuk mendefiniskan kelas,Untuk mengelompokkan kode yang sering digunakan,Untuk mengelompokkan kode yang sering digunakan
+102,Bagaimana cara mendefinisikan sebuah fungsi dalam Python?,mudah,fungsi,1,create function nama_fungsi(),def nama_fungsi(),create function nama_fungsi(),def nama_fungsi()
+103,Apa yang terjadi jika sebuah fungsi tidak mengembalikan nilai?,mudah,fungsi,2,Terjadi error,Fungsi akan mengembalikan nilai None,Terjadi error,Fungsi akan mengembalikan nilai None
+104,Apa yang dimaksud dengan argumen dalam sebuah fungsi?,mudah,fungsi,2,Nilai yang diberikan kepada fungsi saat dipanggil,Nilai yang dikembalikan oleh fungsi,Nilai yang diberikan kepada fungsi saat dipanggil,Nilai yang diberikan kepada fungsi saat dipanggil
+105,Apa perbedaan antara argumen posisi dan argumen keyword,mudah,fungsi,3,"Argumen posisi ditentukan oleh urutannya, sedangkan argumen keyword ditentukan oleh namanya","Argumen posisi selalu bertipe integer, sedangkan argumen keyword bisa bertipe apa saja","Argumen posisi ditentukan oleh urutannya, sedangkan argumen keyword ditentukan oleh namanya","Argumen posisi ditentukan oleh urutannya, sedangkan argumen keyword ditentukan oleh namanya"
+106,Apa yang dimaksud dengan rekursi dalam fungsi?,mudah,fungsi,3,Sebuah fungsi yang selalu mengembalikan nilai yang sama,Sebuah fungsi yang memanggil dirinya sendiri,Sebuah fungsi yang selalu mengembalikan nilai yang sama,Sebuah fungsi yang memanggil dirinya sendiri
+107,Apa keuntungan menggunakan fungsi,mudah,fungsi,4,Membuat kode lebih terstruktur dan mudah dibaca,Menambah jumlah baris kode,Membuat kode lebih terstruktur dan mudah dibaca,Membuat kode lebih terstruktur dan mudah dibaca
+108,Bagaimana cara memanggil fungsi my_function dengan argumen a dan b,mudah,fungsi,4,"function my_function(a, b)","my_function(a, b)","function my_function(a, b)","my_function(a, b)"
+109,Apa yang terjadi jika kita mencoba memanggil fungsi yang belum didefinisikan?,sedang,fungsi,1,Fungsi akan dibuat secara otomatis,Terjadi error NameError,Fungsi akan dibuat secara otomatis,Terjadi error NameError
+110,Apa yang dimaksud dengan modul dalam Python?,sedang,fungsi,1,Sebuah file yang berisi kumpulan fungsi dan variabel,,Sebuah file yang berisi kumpulan fungsi dan variabel,Sebuah file yang berisi kumpulan fungsi dan variabel
+111,Bagaimana cara mengimpor semua fungsi dari modul math,sedang,fungsi,2,from math import *,include math,from math import *,from math import *
+112,Apa keuntungan menggunakan modul,sedang,fungsi,2,menghambat kolaborasi dalam proyek,Membuat kode lebih terorganisir,menghambat kolaborasi dalam proyek,Membuat kode lebih terorganisir
+113,Bagaimana cara mengimpor modul di Python?,sedang,fungsi,3,import modul_name,include modul_name,import modul_name,import modul_name
+114,Fungsi `split()` digunakan untuk apa?,sedang,fungsi,3,Menggabungkan string,Memisahkan string menjadi list,Menggabungkan string,Memisahkan string menjadi list
+114,Fungsi `split()` digunakan untuk apa?,sedang,fungsi,4,Menggabungkan string,Memisahkan string menjadi list,Menggabungkan string,Memisahkan string menjadi list
+115,Bagaimana cara yang benar untuk membuat fungsi dalam Python?,sedang,fungsi,4,create myFunction(),def myFunction():,create myFunction(),def myFunction():
+116,"Untuk mengacak daftar (misalkan list1), fungsi apa yang kita gunakan?",sulit,fungsi,1,random.shuffle(list1),random.shuffleList(list1),random.shuffle(list1),random.shuffle(list1)
+117,"Apa output dari 
+def sayHello():
+    print('Hello World!') 
+sayHello() 
+sayHello()",sulit,fungsi,2,"Hello World!
+Hello World!","Hello World!'
+'Hello World!'","Hello World!
+Hello World!","Hello World!
+Hello World!"
+118,"Apa output dari 
+def say(message, times = 1):
+    print(message * times)
+say('Hello')
+say('World', 5)",sulit,fungsi,3,"Hello
+WorldWorldWorldWorldWorld","Hello
+World,World,World,World,World","Hello
+WorldWorldWorldWorldWorld","Hello
+WorldWorldWorldWorldWorld"
+119,"Apa output dari
+def multiply_list(lst): 
+  result = 1 
+  for i in lst: 
+    result *= i 
+  return result
+print(multiply_list([1,2,3]))",sulit,fungsi,4,"[1,2,3]",6,"[1,2,3]",6
+120,Apa yang dimaksud dengan metode dalam OOP,mudah,OOP,1,Sebuah variabel global yang dapat diakses oleh semua objek,Sebuah tindakan yang dapat dilakukan oleh objek,Sebuah variabel global yang dapat diakses oleh semua objek,Sebuah tindakan yang dapat dilakukan oleh objek
+120,Apa yang dimaksud dengan metode dalam OOP,mudah,OOP,2,Sebuah variabel global yang dapat diakses oleh semua objek,Sebuah tindakan yang dapat dilakukan oleh objek,Sebuah variabel global yang dapat diakses oleh semua objek,Sebuah tindakan yang dapat dilakukan oleh objek
+120,Apa yang dimaksud dengan metode dalam OOP,mudah,OOP,3,Sebuah variabel global yang dapat diakses oleh semua objek,Sebuah tindakan yang dapat dilakukan oleh objek,Sebuah variabel global yang dapat diakses oleh semua objek,Sebuah tindakan yang dapat dilakukan oleh objek
+120,Apa yang dimaksud dengan metode dalam OOP,mudah,OOP,4,Sebuah variabel global yang dapat diakses oleh semua objek,Sebuah tindakan yang dapat dilakukan oleh objek,Sebuah variabel global yang dapat diakses oleh semua objek,Sebuah tindakan yang dapat dilakukan oleh objek
+121,Apa yang dimaksud dengan kelas dalam OOP?,sedang,OOP,1,Sebuah blueprint untuk membuat objek,Sebuah struktur data untuk menyimpan data,Sebuah blueprint untuk membuat objek,Sebuah blueprint untuk membuat objek
+121,Apa yang dimaksud dengan kelas dalam OOP?,sedang,OOP,2,Sebuah blueprint untuk membuat objek,Sebuah struktur data untuk menyimpan data,Sebuah blueprint untuk membuat objek,Sebuah blueprint untuk membuat objek
+121,Apa yang dimaksud dengan kelas dalam OOP?,sedang,OOP,3,Sebuah blueprint untuk membuat objek,Sebuah struktur data untuk menyimpan data,Sebuah blueprint untuk membuat objek,Sebuah blueprint untuk membuat objek
+121,Apa yang dimaksud dengan kelas dalam OOP?,sedang,OOP,4,Sebuah blueprint untuk membuat objek,Sebuah struktur data untuk menyimpan data,Sebuah blueprint untuk membuat objek,Sebuah blueprint untuk membuat objek
+122,Apa yang dimaksud dengan objek dalam OOP?,sedang,OOP,1,Sebuah modul yang berisi kelas-kelas,Sebuah instance dari sebuah kelas,Sebuah modul yang berisi kelas-kelas,Sebuah instance dari sebuah kelas
+122,Apa yang dimaksud dengan objek dalam OOP?,sedang,OOP,2,Sebuah modul yang berisi kelas-kelas,Sebuah instance dari sebuah kelas,Sebuah modul yang berisi kelas-kelas,Sebuah instance dari sebuah kelas
+122,Apa yang dimaksud dengan objek dalam OOP?,sedang,OOP,3,Sebuah modul yang berisi kelas-kelas,Sebuah instance dari sebuah kelas,Sebuah modul yang berisi kelas-kelas,Sebuah instance dari sebuah kelas
+122,Apa yang dimaksud dengan objek dalam OOP?,sedang,OOP,4,Sebuah modul yang berisi kelas-kelas,Sebuah instance dari sebuah kelas,Sebuah modul yang berisi kelas-kelas,Sebuah instance dari sebuah kelas
+123,Apa yang dimaksud dengan OOP?,mudah,OOP,1,Object-Oriented Programming,Open-Order Program,Object-Oriented Programming,Object-Oriented Programming
+123,Apa yang dimaksud dengan OOP?,mudah,OOP,2,Object-Oriented Programming,Open-Order Program,Object-Oriented Programming,Object-Oriented Programming
+123,Apa yang dimaksud dengan OOP?,mudah,OOP,3,Object-Oriented Programming,Open-Order Program,Object-Oriented Programming,Object-Oriented Programming
+123,Apa yang dimaksud dengan OOP?,mudah,OOP,4,Object-Oriented Programming,Open-Order Program,Object-Oriented Programming,Object-Oriented Programming
+124,Apa peran dari '__init__' dalam class di Python?,sulit,OOP,1,untuk menginisialisasi atribut (atau properti) dari objek dan memastikan bahwa objek tersebut siap digunakan.,parameter pertama,untuk menginisialisasi atribut (atau properti) dari objek dan memastikan bahwa objek tersebut siap digunakan.,untuk menginisialisasi atribut (atau properti) dari objek dan memastikan bahwa objek tersebut siap digunakan.
+124,Apa peran dari '__init__' dalam class di Python?,sulit,OOP,2,untuk menginisialisasi atribut (atau properti) dari objek dan memastikan bahwa objek tersebut siap digunakan.,parameter pertama,untuk menginisialisasi atribut (atau properti) dari objek dan memastikan bahwa objek tersebut siap digunakan.,untuk menginisialisasi atribut (atau properti) dari objek dan memastikan bahwa objek tersebut siap digunakan.
+124,Apa peran dari '__init__' dalam class di Python?,sulit,OOP,3,untuk menginisialisasi atribut (atau properti) dari objek dan memastikan bahwa objek tersebut siap digunakan.,parameter pertama,untuk menginisialisasi atribut (atau properti) dari objek dan memastikan bahwa objek tersebut siap digunakan.,untuk menginisialisasi atribut (atau properti) dari objek dan memastikan bahwa objek tersebut siap digunakan.
+124,Apa peran dari '__init__' dalam class di Python?,sulit,OOP,4,untuk menginisialisasi atribut (atau properti) dari objek dan memastikan bahwa objek tersebut siap digunakan.,parameter pertama,untuk menginisialisasi atribut (atau properti) dari objek dan memastikan bahwa objek tersebut siap digunakan.,untuk menginisialisasi atribut (atau properti) dari objek dan memastikan bahwa objek tersebut siap digunakan.
+125,"Berapa nilai yang dihasilkan operasi aritmatika sederhana berikut
+panjang = 20 
+lebar = 10
+ luas = panjang * lebar
+print(""Luas persegi panjang : "" , luas)",mudah,operasi aritmetika,1,2000,200,2000,200
+125,"Berapa nilai yang dihasilkan operasi aritmatika sederhana berikut
+panjang = 20 
+lebar = 10
+ luas = panjang * lebar
+print(""Luas persegi panjang : "" , luas)",mudah,operasi aritmetika,3,2000,200,2000,200
+125,"Berapa nilai yang dihasilkan operasi aritmatika sederhana berikut
+panjang = 20 
+lebar = 10
+ luas = panjang * lebar
+print(""Luas persegi panjang : "" , luas)",mudah,operasi aritmetika,4,2000,200,2000,200
+126,"Berapa nilai yang dihasilkan operasi aritmatika sederhana berikut
+sisi = 5
+luas = sisi * sisi 
+print(""Luas persegi panjang : """", luas)",mudah,operasi aritmetika,1,20,25,20,25
+126,"Berapa nilai yang dihasilkan operasi aritmatika sederhana berikut
+sisi = 5
+luas = sisi * sisi 
+print(""Luas persegi panjang : """", luas)",mudah,operasi aritmetika,2,20,25,20,25
+126,"Berapa nilai yang dihasilkan operasi aritmatika sederhana berikut
+sisi = 5
+luas = sisi * sisi 
+print(""Luas persegi panjang : """", luas)",mudah,operasi aritmetika,3,20,25,20,25
+126,"Berapa nilai yang dihasilkan operasi aritmatika sederhana berikut
+sisi = 5
+luas = sisi * sisi 
+print(""Luas persegi panjang : """", luas)",mudah,operasi aritmetika,4,20,25,20,25
+127,"Berapa nilai yang dihasilkan operasi aritmatika sederhana berikut
+import math
+jari2 = 10 
+luas = math.pi * jari2**2
+print(""Luas lingkaran : "" , luas)",sedang,operasi aritmetika,2,314,31.4,314,314
+128,Operator mana yang digunakan untuk pembagian bulat (integer division) di Python?,sedang,operasi aritmetika,1,/,//,/,//
+128,Operator mana yang digunakan untuk pembagian bulat (integer division) di Python?,sedang,operasi aritmetika,4,/,//,/,//
+129,Apa output dari print(3 + 4 * 2)?,sulit,operasi aritmetika,1,14,11,14,11
+129,Apa output dari print(3 + 4 * 2)?,sulit,operasi aritmetika,3,14,11,14,11
+129,Apa output dari print(3 + 4 * 2)?,sulit,operasi aritmetika,4,14,11,14,11
+130,Apa yang terjadi jika Anda mencoba membagi angka dengan nol,sedang,operasi aritmetika,2,Hasil adalah nol,Error,Hasil adalah nol,Error
+130,Apa yang terjadi jika Anda mencoba membagi angka dengan nol,sedang,operasi aritmetika,3,Hasil adalah nol,Error,Hasil adalah nol,Error
+131,Apakah arti operator `**` di Python?,sulit,operasi aritmetika,2,Perkalian,Pangkat,Perkalian,Pangkat
+132,Apa output dari kode print(3 + 2 * 2)?,sedang,operasi aritmetika,1,7,10,7,7
+133,Yang mana operator yang digunakan untuk perkalian dalam Python?,mudah,operasi aritmetika,2,*,x,*,*
+134,Berapakah nilai dari ekspresi Python 4+3%5?,sedang,operasi aritmetika,3,2,7,2,7
+135,Operator aritmatika apa yang tidak dapat digunakan dengan string di Python?,sedang,operasi aritmetika,4,*,-,*,-
+136,"Output apa yang dihasilkan dari program berikut
+kalimat = ""Halo semua, saya adalah program komputer"" 
+print(kalimat)",mudah,pengantar python,1,"Halo semua, saya adalah program komputer",kalimat,"Halo semua, saya adalah program komputer","Halo semua, saya adalah program komputer"
+136,"Output apa yang dihasilkan dari program berikut
+kalimat = ""Halo semua, saya adalah program komputer"" 
+print(kalimat)",mudah,pengantar python,4,"Halo semua, saya adalah program komputer",kalimat,"Halo semua, saya adalah program komputer","Halo semua, saya adalah program komputer"
+137,"Output apa yang dihasilkan dari program berikut
+bil_bulat = 7800 
+print(bil_bulat)",mudah,pengantar python,1,bil_bulat,7800,bil_bulat,7800
+137,"Output apa yang dihasilkan dari program berikut
+bil_bulat = 7800 
+print(bil_bulat)",mudah,pengantar python,4,bil_bulat,7800,bil_bulat,7800
+138,"Output apa yang dihasilkan dari program berikut
+bil_desimal=10.087
+print(bil_desimal)",mudah,pengantar python,2,bil_desimal,10.087,bil_desimal,10.087
+139,"Output apa yang dihasilkan dari program berikut
+jum_motor = 3 
+jum_rumah = 3 
+umur_saya = 18 
+rambut_saya = ""Hitam"" 
+print(""Saya punya"", jum_motor, ""motor dan"", jum_rumah, ""rumah"")",mudah,pengantar python,2,Saya punya 3 motor dan 3 rumah,"""Saya punya"", jum_motor, ""motor dan"", jum_rumah, ""rumah""",Saya punya 3 motor dan 3 rumah,Saya punya 3 motor dan 3 rumah
+140,"Output apa yang dihasilkan dari program berikut
+jum_motor = 3 
+jum_rumah = 3
+umur_saya = 18
+rambut_saya = ""Hitam"" 
+print(f""umur saya {umur_saya} tahun dan saya punya rambut warna {rambut_saya}"")",mudah,pengantar python,3,umur saya 18 tahun dan saya punya rambut warna Hitam,"f""umur saya {umur_saya} tahun dan saya punya rambut warna {rambut_saya}""",umur saya 18 tahun dan saya punya rambut warna Hitam,umur saya 18 tahun dan saya punya rambut warna Hitam
+141,"Output apa yang dihasilkan dari program berikut
+jenis_manusia = 2 
+biner = ""tau bilangan biner""
+not_biner = ""tidak tau bilangan biner"" 
+x = f""Di dunia ini ada {jenis_manusia} jenis manusia yaitu yang {biner} dan yang {not_biner}""
+ print(x)",mudah,pengantar python,3,x,Di dunia ini ada 2 jenis manusia yaitu yang tau bilangan biner dan yang tidak tau bilangan biner,x,Di dunia ini ada 2 jenis manusia yaitu yang tau bilangan biner dan yang tidak tau bilangan biner
+142,"Apa yang akan ditampilkan jika kode berikut dijalankan? print(""Hello, World!"")",sedang,pengantar python,1,"Hello, World!","Hello, World","Hello, World!","Hello, World!"
+142,"Apa yang akan ditampilkan jika kode berikut dijalankan? print(""Hello, World!"")",sedang,pengantar python,4,"Hello, World!","Hello, World","Hello, World!","Hello, World!"
+143,Apa itu variabel dalam Python,sedang,pengantar python,1,Sebuah tempat untuk menyimpan nilai,Sebuah fungsi,Sebuah tempat untuk menyimpan nilai,Sebuah tempat untuk menyimpan nilai
+143,Apa itu variabel dalam Python,sedang,pengantar python,4,Sebuah tempat untuk menyimpan nilai,Sebuah fungsi,Sebuah tempat untuk menyimpan nilai,Sebuah tempat untuk menyimpan nilai
+144,Apa ekstensi file yang benar untuk file Python?,sedang,pengantar python,2,.py,.pp,.py,.py
+145,True or False: Indentasi dalam Python hanya untuk keterbacaan.,sedang,pengantar python,2,TRUE,FALSE,TRUE,FALSE
+145,True or False: Indentasi dalam Python hanya untuk keterbacaan.,sedang,pengantar python,3,TRUE,FALSE,TRUE,FALSE
+146,Manakah cara yang benar untuk mendeklarasikan variabel Python?,sedang,pengantar python,3,x = 5,var x = 5,x = 5,x = 5
+147,True or False: x = 'python' sama dengan x = 'Python',sulit,pengantar python,1,TRUE,FALSE,TRUE,TRUE
+148,Bagaimana cara menyisipkan KOMENTAR dalam kode Python?,sulit,pengantar python,2,#Ini Komentar,/*Ini Komentar*/,#Ini Komentar,#Ini Komentar
+149,Siapakah yang mengembangkan Bahasa Pemrograman Python?,sulit,pengantar python,3,Guido van Rossum,Guido van Rosse,Guido van Rossum,Guido van Rossum
+150,Manakah dari berikut ini yang merupakan ekstensi file Python yang benar?,sulit,pengantar python,4,.py,.python,.py,.py
+151,Manakah dari berikut ini yang digunakan untuk mendefinisikan blok kode dalam bahasa Python?,sulit,pengantar python,,Indentation,Tanda kurung,Indentation,Indentation
+152,Bagaimana cara membuat list kosong di Python?,mudah,struktur data,1,list = [],list = None,list = [],list = []
+153,Manakah yang merupakan cara yang benar untuk mengakses elemen ke-3 dalam list my_list?,mudah,struktur data,1,my_list[3],my_list[2],my_list[3],my_list[2]
+154,Bagaimana cara menambahkan elemen baru ke akhir sebuah list?,mudah,struktur data,2,list.append(element),list.add(element),list.append(element),list.append(element)
+155,Apa yang dimaksud dengan dictionary di Python?,mudah,struktur data,2,Sebuah kumpulan pasangan key-value yang tidak berurutan,Sebuah struktur data untuk menyimpan data numeri,Sebuah kumpulan pasangan key-value yang tidak berurutan,Sebuah kumpulan pasangan key-value yang tidak berurutan
+156,Berapa banyak elemen yang dapat disimpan dalam tuple?,mudah,struktur data,3,Tergantung pada versi Python,Tak terbatas,Tergantung pada versi Python,Tak terbatas
+157,Apakah perbedaan antara list dan tuple?,mudah,struktur data,3,"List bisa diubah, tuple tidak bisa","List tidak bisa diubah, tuple bisa","List bisa diubah, tuple tidak bisa","List bisa diubah, tuple tidak bisa"
+157,Apakah perbedaan antara list dan tuple?,mudah,struktur data,4,"List bisa diubah, tuple tidak bisa","List tidak bisa diubah, tuple bisa","List bisa diubah, tuple tidak bisa","List bisa diubah, tuple tidak bisa"
+158,Fungsi mana yang digunakan untuk menghapus elemen dari list?,mudah,struktur data,4,delete(),remove(),delete(),remove()
+159,Apakah struktur data yang menyimpan elemen dalam urutan tertentu?,sedang,struktur data,1,Set,List,Set,List
+160,Apa yang dimaksud dengan 'mutable' dalam konteks list di Python?,sedang,struktur data,1,sifat objek yang tidak dapat diubah atau dimodifikasi setelah dibuat,sifat objek yang dapat diubah atau dimodifikasi setelah dibuat,sifat objek yang tidak dapat diubah atau dimodifikasi setelah dibuat,sifat objek yang dapat diubah atau dimodifikasi setelah dibuat
+161,Apa perbedaan antara list dan tuple di Python?,sedang,struktur data,2,List bersifat mutable sedangkan Tuple immutable,Tuple bersifat mutable sedangkan List bersifat immutable,List bersifat mutable sedangkan Tuple immutable,List bersifat mutable sedangkan Tuple immutable
+162,Bagaimana cara melakukan iterasi key di Python?,sedang,struktur data,2,for key in my_dict:,"for key, value in my_dict.items():",for key in my_dict:,for key in my_dict:
+163,Bagaimana cara melakukan list comprehension di Python?,sedang,struktur data,3,new_list = [iterable for item in expression if condition],new_list = [expression for item in iterable if condition],new_list = [iterable for item in expression if condition],new_list = [expression for item in iterable if condition]
+164,Apa yang akan terjadi jika kita mencoba mengubah elemen dalam tuple?,sedang,struktur data,3,TypeError,Akan berubah,TypeError,TypeError
+165,Bagaimana cara menambahkan elemen baru ke dalam dictionary di Python?,sedang,struktur data,4,update() untuk menambah beberapa elemen sekaligus.,input() untuk menambah beberapa elemen sekaligus.,update() untuk menambah beberapa elemen sekaligus.,update() untuk menambah beberapa elemen sekaligus.
+166,Koleksi mana yang tidak memperbolehkan anggota duplikat?,sedang,struktur data,4,Tuple,Set,Tuple,Set
+167,Manakah dari berikut ini yang merupakan tuple Python?,sulit,struktur data,1,"(1, 2, 3)","[1, 2, 3]","(1, 2, 3)","(1, 2, 3)"
+168,Output ketika kita menjalankan list(“hello”) adalah?,sulit,struktur data,2,"['h', 'e', ​​'l', 'l', 'o']",['hello'],"['h', 'e', ​​'l', 'l', 'o']","['h', 'e', ​​'l', 'l', 'o']"
+169,"Misalkan listExample adalah ['h','e','l','l','o'], berapakah len(listExample)?",sulit,struktur data,3,1,5,1,5
+170,"Misalkan list1 adalah [2445,133,12454,123], berapakah max(list1)?",sulit,struktur data,4,12454,2445,12454,12454
+171,"Misalkan list1 adalah [2, 33, 222, 14, 25], apa list1[-1]?",sulit,struktur data,,25,2,25,25
+172,"Apa output dari
+total = 0 
+for num in [1, 4, 9, 16, 25]: 
+  total += num 
+print(total)",sulit,struktur data,,55,54,55,55
+173,"Berapa nilai yang dihasilkan operasi aritmatika sederhana berikut
+x = 10 
+y = 20
+sum = x + y
+print(sum)",sedang,struktur data,,30,200,30,30
+174,"Apa output dari
+list_numbers = [1, 2, 3, 4, 5]
+for num in list_numbers:
+  print(num**2)",sulit,struktur data,,"2
+4
+6
+8
+10","1
+4
+9
+16
+25","2
+4
+6
+8
+10","1
+4
+9
+16
+25"
+175,Apa fungsi dari keyword if dalam Python?,mudah,struktur kontrol,1,Untuk perulangan,Untuk pengambilan keputusan,Untuk perulangan,Untuk pengambilan keputusan
+175,Apa fungsi dari keyword if dalam Python?,mudah,struktur kontrol,4,Untuk perulangan,Untuk pengambilan keputusan,Untuk perulangan,Untuk pengambilan keputusan
+176,Manakah dari berikut ini yang bukan struktur kontrol?,mudah,struktur kontrol,1,if,define,if,define
+176,Manakah dari berikut ini yang bukan struktur kontrol?,mudah,struktur kontrol,3,if,define,if,define
+176,Manakah dari berikut ini yang bukan struktur kontrol?,mudah,struktur kontrol,4,if,define,if,define
+177,Mana dari berikut ini yang merupakan cara yang benar untuk menangani exception?,mudah,struktur kontrol,2,try...except,catch...throw,try...except,try...except
+177,Mana dari berikut ini yang merupakan cara yang benar untuk menangani exception?,mudah,struktur kontrol,3,try...except,catch...throw,try...except,try...except
+178,Apakah perbedaan antara `==` dan `is` di Python?,sedang,struktur kontrol,2,#ERROR!,#ERROR!,#ERROR!,#ERROR!
+179,Fungsi mana yang digunakan untuk mendapatkan input dari pengguna?,sedang,struktur kontrol,1,print(),input(),print(),input()
+179,Fungsi mana yang digunakan untuk mendapatkan input dari pengguna?,sedang,struktur kontrol,3,print(),input(),print(),input()
+179,Fungsi mana yang digunakan untuk mendapatkan input dari pengguna?,sedang,struktur kontrol,4,print(),input(),print(),input()
+180,Apa perbedaan antara operator == dan is di Python?,sedang,struktur kontrol,4,#ERROR!,#ERROR!,#ERROR!,#ERROR!
+181,Bagaimana cara menangani input dari pengguna di Python?,sedang,struktur kontrol,1,menggunakan fungsi output(),menggunakan fungsi input(),menggunakan fungsi output(),menggunakan fungsi input()
+181,Bagaimana cara menangani input dari pengguna di Python?,sedang,struktur kontrol,2,menggunakan fungsi output(),menggunakan fungsi input(),menggunakan fungsi output(),menggunakan fungsi input()
+181,Bagaimana cara menangani input dari pengguna di Python?,sedang,struktur kontrol,3,menggunakan fungsi output(),menggunakan fungsi input(),menggunakan fungsi output(),menggunakan fungsi input()
+182,Apa yang dimaksud dengan 'scope' dalam Python?,sulit,struktur kontrol,2,Scope adalah tempat di mana sebuah variabel dapat diakses atau digunakan dalam program.,Scope adalah aturan yang menentukan bagaimana fungsi atau variabel didefinisikan di dalam modul Python.,Scope adalah tempat di mana sebuah variabel dapat diakses atau digunakan dalam program.,Scope adalah tempat di mana sebuah variabel dapat diakses atau digunakan dalam program.
+183,Operator mana yang dapat digunakan untuk membandingkan dua nilai?,sulit,struktur kontrol,1,#ERROR!,#ERROR!,#ERROR!,#ERROR!
+183,Operator mana yang dapat digunakan untuk membandingkan dua nilai?,sulit,struktur kontrol,3,#ERROR!,#ERROR!,#ERROR!,#ERROR!
+183,Operator mana yang dapat digunakan untuk membandingkan dua nilai?,sulit,struktur kontrol,4,#ERROR!,#ERROR!,#ERROR!,#ERROR!
+184,"Apa yang akan menjadi output dari kode Python 
+i = 1
+while True:
+    if i % 3 == 0:
+        break
+    print(i)
+    
+    i + = 1",sulit,struktur kontrol,2,"1,2",Error,"1,2",Error
+185,Apa output dari x<<2 jika x=1?,sulit,struktur kontrol,,2,4,2,4
+186,Apakah tipe data untuk angka bulat di Python?,mudah,tipe data,1,Integer,String,Integer,Integer
+187,Fungsi mana yang digunakan untuk mencetak output ke layar?,mudah,tipe data,1,print(),input(),print(),print()
+188,Fungsi mana yang digunakan untuk mengubah string menjadi huruf kapital,mudah,tipe data,2,upper(),capitalize(),upper(),upper()
+189,Untuk apa fungsi `len()` digunakan?,mudah,tipe data,2,Menghitung panjang objek,Menghitung jumlah elemen dalam list,Menghitung panjang objek,Menghitung panjang objek
+190,Fungsi mana yang digunakan untuk mengonversi tipe data ke integer?,mudah,tipe data,3,int(),str(),int(),int()
+191,"""Apakah simbol untuk komentar di Python?",mudah,tipe data,3,//,#,//,#
+192,Fungsi mana yang digunakan untuk membalikkan string?,mudah,tipe data,4,reverse(),[::-1],reverse(),[::-1]
+193,"Jika x = 3, apa sintaksis yang benar untuk mencetak tipe data variabel x?",mudah,tipe data,4,print(type(x),print(dtype(x),print(type(x),print(type(x)
+194,Apa tipe data untuk kode berikut: x = 'Hello World' print(type(x)),sedang,tipe data,,str,int,str,str
+195,Manakah yang bukan merupakan tipe data numerik di python,sedang,tipe data,,float,long,float,long
+196,Mana yang merupakan hasil yang tepat: print(str(35.88)),sedang,tipe data,1,ValueError,35.88,ValueError,35.88
+196,Mana yang merupakan hasil yang tepat: print(str(35.88)),sedang,tipe data,4,ValueError,35.88,ValueError,35.88
+197,"Untuk memeriksa apakah frasa atau karakter tertentu ada dalam suatu string, kita dapat menggunakan kata kunci apa?",sedang,tipe data,1,in,range,in,in
+197,"Untuk memeriksa apakah frasa atau karakter tertentu ada dalam suatu string, kita dapat menggunakan kata kunci apa?",sedang,tipe data,4,in,range,in,in
+198,Apa sintaks yang benar untuk mencetak string dalam huruf besar?,sedang,tipe data,2,Hello'.upper(),Hello'.upperCase(),Hello'.upper(),Hello'.upper()
+199,"Untuk menggabungkan, atau mengombinasikan dua string, apa yang dapat Anda gunakan ",sedang,tipe data,2,operator +,operator *,operator +,operator +
+200,"Bagaimana Anda membuat variabel untuk angka 2,8?",sedang,tipe data,3,x=2.8,x='2.8',x=2.8,x=2.8
+201,"Dalam Python, 'Halo', sama dengan ""Halo""",sedang,tipe data,3,FALSE,TRUE,FALSE,TRUE
+202,Metode manakah yang dapat digunakan untuk menghapus spasi di awal dan akhir string?,sulit,tipe data,1,strip(),len(),strip(),strip()
+203,"Apa output dari len ( [ ""halo"" , 2 ,  4 ,  6 ] ) pada python?",sulit,tipe data,2,7,4,7,4
+204,"Apa output dari
+arr = [1, 2, 4, 8, 16] 
+new_arr = [i * 2 for i in arr]
+print(new_arr)",sulit,tipe data,3,"[2, 4, 8, 16, 32]","[1, 2, 4, 8, 16]","[2, 4, 8, 16, 32]","[2, 4, 8, 16, 32]"
+205,"Apa output dari
+my_list = [""apples"", ""oranges"", ""bananas""]
+for item in my_list:
+  print(item)",sulit,tipe data,4,"bananas
+oranges
+apples","apples
+oranges
+bananas","bananas
+oranges
+apples","apples
+oranges
+bananas"
+206,"Tipe data apa yang ada di dalam list berikut
+[‘Python’, ‘is’, ‘a’, ‘programming’, ‘language’]",mudah,tipe data,,String,Integer,String,String
