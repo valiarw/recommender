@@ -1,0 +1,211 @@
+question_id,material,instruction,question,correct_answer,attempts,duration
+2935,Introduction Python,Optimize the following Python code to print the numbers in reverse.,"for i in reversed(range(1,11)):
+    print(___)",i,1,20
+4965,Introduction Python,Generate a code that will print out all substrings of a given string.,"def substrings(s):
+    sub_str_list = []
+    for i in range(len(s)):
+        for j in range(i + 1, len(s)+1):
+            sub_str = s[i:j]
+            sub_str_list.append(sub_str)
+    return sub_str_list
+
+result = substrings(""python"")
+print(___)",result,1,20
+4714,Introduction Python,Update the given Python program to print the result in reverse order.,"numbers = [1, 2, 3, 4, 5, 6]
+
+for x in reversed(numbers):
+    print(___)",x,1,20
+4511,Control Structure,"Optimize the following python code to speed up execution time:
+
+arr = [2, 5, 3, 1]
+for i in range(len(arr)):
+  for j in range(i + 1, len(arr)):
+    if arr[i] > arr[j]:
+       arr[i], arr[j] = arr[j], arr[i]","arr = [2, 5, 3, 1]
+
+# using Python's built in `sorted` function
+arr = sorted(arr)
+
+# using the Bubble Sort algorithm
+for ___ in range(len(arr) - 1):
+ for j in range(len(arr) - 1 - i):
+  if arr[j] > arr[j + 1]:
+   arr[j], arr[j + 1] = arr[j + 1], arr[j]",i,1,20
+2423,Control Structure,Debug the following Python code and make it functional (read the instructions for the code).,"def factorial(n):
+ if ___ == 0:
+    return 1
+ else:
+ return n * factorial(n - 1)
+
+# call the method
+print(factorial(5))",n,1,20
+269,Control Structure,Create a python program that detects if a number is even or odd.,"def is_even_odd(num):
+    if ___ % 2 == 0:
+        return ""Even""
+    else:
+        return ""Odd""
+
+result = is_even_odd(7)
+print(result)",num,1,20
+1037,Data Structure,"Create a program in Python that takes a list of strings as input, sorts the strings in alphabetical order, and prints out the list in reverse alphabetical order.","# create a list ___ = [""cat"", ""bird"", ""dog"", ""zebra"", ""ant""]
+ 
+# sort the list
+sample_list.sort()
+ 
+# reverse the list
+sample_list.reverse()
+ 
+# print the reversed list
+print(sample_list)
+# ['zebra', 'dog', 'cat', 'bird', 'ant']",sample_list,1,20
+4696,Data Structure,Develop a function in python to find the index of an element in a list.,"def find_index(a, x):
+    indices = []
+    if x not in a:
+        return -1
+    else:
+        for i in range(len(a)):
+            if a[i] == x:
+                indices.append(i)
+    return indices
+
+indices = find_index(a, x)
+print(""The index of element 2 in the list ___"", indices)",is,1,20
+4545,Data Structure,Generate an algorithm in Python that returns the kth smallest number in a given array.,"def kthSmallest(arr, k):
+ # sort the array ___.sort()
+ 
+ # return the kth element
+ return arr[k-1]
+ 
+# Driver Code
+arr = [3,2,4,1,5]
+k = 3
+
+print(kthSmallest(arr, k)) # 3",arr,1,20
+1678,Data Type,Create a Python function that takes in a string and a list of words and returns true if the string contains all the words in the list.,"def contains_words(input_string, words):
+ for word in words:
+ if word not in input_string:
+ return False ___ True
+
+print(contains_words('This is a test', ['test', 'this', 'is'])) # True",return,1,20
+7503,Data Type,Build an algorithm in Python to check if a string is a palindrome.,"def is_palindrome(str):
+    # Get the length of the string
+    n = len(str)
+
+    for i in range(n//2):
+        # Compare characters from both ends
+        if str[i] != str[n-i-1]:
+            return False ___ True
+
+str = ""abccba""
+print(is_palindrome(str))",return,1,20
+3706,Data Type,Create a Python program to check for anagrams of a string.,"def anagramCheck(str1, str2):
+    if (len(str1) != len(str2)):
+        return False ___ = sorted(str1)
+    str2 = sorted (str2)
+
+    # Compare each character in str1 with
+    # each character in str2
+    for i in range( len( str1 ) ):
+        if (str1[i] != str2[i]):
+            return False
+ 
+    return True",str1,1,20
+5790,Function,Rewrite the following Python function without using loop.,"def ___(l): 
+	from functools import reduce
+	return reduce((lambda x, y: x * y), l)",multiply_list,1,20
+6030,Function,Edit the following python function so that it prints its parameters in reversed order.,"def ___(a, b):
+  print(b + ' ' + a)",print_params,1,20
+4131,Function,Generate a python function to calculate the total cost of a purchase given prices and quantities.,"def ___(prices, quantities):
+ total = 0
+ for price, quantity in zip(prices, quantities):
+ total += price * quantity
+ return total",calculate_total_cost,1,20
+3441,OOP,Create a class in Python to generate a calendar.,"class ___(object):
+
+    def __init__(self, name):
+        self.name = name
+
+    def generate_calendar(self):
+        calendar = []
+
+        # Code to generate a calendar goes here
+
+        return calendar
+
+calendar = CalendarGenerator(calendarName)
+calendar.generate_calendar()",CalendarGenerator,1,20
+2282,OOP,Create a class in Python that takes two arguments a 'name' and 'age' and returns a greeting.,"class ___:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def get_greeting(self):
+        return f""Hello, my name is {self.name} and I am {self.age} years old.""",Greeting,1,20
+4291,OOP,Create a class in Python that can represent a 3D point with the given fields.,"class ___:
+  def __init__(self, x, y, z):
+    self.x = x
+    self.y = y
+    self.z = z
+
+  def __str__(self):
+    return 'Point3D is at {x}, {y}, {z}'.format(x = self.x, y = self.y, z = self.z)",Point3D,1,20
+2891,Operator,"Using a built-in sorting algorithm, write a Python program to sort a given list of integers.","def sort_list(arr):
+    return sorted(arr)
+
+my_list = [3, 4, 6, 1, 9, 5, 2]
+sorted_list = ___(my_list)
+print(sorted_list)",sort_list,1,20
+6176,Operator,"Create a simple Python script that takes a single command-line parameter and prints out ""Hello <parameter>"" to the console.","import sys
+
+name = ___.argv[1]
+print(""Hello {}"".format(name)) # Output: Hello John",sys,1,20
+6539,Operator,Create a Python program to group a list of numbers into two lists according to their parity (even/odd) in the most efficient way.,"even_list = []
+odd_list = []
+
+for num in input_list:
+ if num % ___ == 0:
+ even_list.append(num)
+ else:
+ odd_list.append(num)
+
+print('Even list:', even_list)
+print('Odd list:', odd_list)",2,1,20
+4150,Lainnya,Create a web scraper with Python and Beautiful Soup to scrape data from a single webpage.,"import ___
+from bs4 import BeautifulSoup
+
+url = 'http://example.com/page'
+
+response = requests.get(url)
+
+soup = BeautifulSoup(response.text, 'html.parser')
+
+results = soup.find_all('div', {'class': 'result'})
+
+for result in results:
+ title = result.find('h2').text
+ description = result.find('p').text 
+ print(title, description)",requests,1,20
+1361,Lainnya,"Generate a Python program to calculate the amount of time the user has been working on a specific task, given the start time and the current time.","import ___
+
+def get_time_difference(start_time, current_time):
+    start_time = datetime.datetime.strptime(start_time, ""%H:%M%p"")
+    current_time = datetime.datetime.strptime(current_time, ""%H:%M%p"")
+    return current_time - start_time",datetime,1,20
+2530,Lainnya,Create a Python script that processes a sentence and classifies it as positive or negative.,"import ___
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+
+sentence = ""The food was really bad.""
+
+sentiment_analyzer = SentimentIntensityAnalyzer()
+score = sentiment_analyzer.polarity_scores(sentence)
+
+if score['compound'] > 0:
+ sentiment = 'positive'
+elif score['compound'] < 0:
+ sentiment = 'negative'
+
+print(f'The sentence is {sentiment}.')",nltk,1,20
+571,Lainnya,Generate 3 random numbers within the specified range using Python.,"import ___
+
+random_numbers = random.sample(range(0, 10), 3) 
+print(random_numbers)",random,1,20
