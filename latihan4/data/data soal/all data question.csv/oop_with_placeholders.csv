@@ -1,0 +1,482 @@
+question_id,material,instruction,template,input,correct_answer,attempts,duration
+34,OOP,Design a class in Python that models a customer with the following properties,"class ___:
+    def __init__(self,name, email, phone_number, address):
+        self.name = name
+        self.email = email
+        self.phone_number = phone_number
+        self.address = address","Attributes: name, email, phone_number, address.",Customer,1,20
+595,OOP,Create a class in Python that represents a given animal object.,"class ___:
+    def __init__(self):
+        self.name = """"
+        self.colour = """"
+        self.age = 0
+        self.breed = """"
+
+    def meow(self):
+        print(self.name, ""says meow!"")",Cat,Cat,1,20
+836,OOP,Extend a Python class to create another class with similar behavior.,"class ___(Vehicle):
+    def __init__(self):
+        super().__init__()
+        self.num_wheels = 2
+        self.type = 'motorcycle'
+
+    def accelerate(self):
+        self.speed += 10
+
+    def brake(self):
+        self.speed = max(self.speed - 7, 0)","class Vehicle:
+	def __init__(self):
+		self.speed = 0
+		self.odometer = 0
+		self.time = 0",Motorcycle,1,20
+1386,OOP,Edit the following Python class such that it can accept a variable number of parameters.,"class ___:
+    def __init__(self, *args):
+        self.name = args[0]
+        self.age = args[1]
+        self.weight = args[2]","class Person:
+    def __init__(self, name, age, weight):
+        self.name = name
+        self.age = age
+        self.weight = weight",Person,1,20
+1520,OOP,Write Python code to implement a class like this.,"class ___: 
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age 
+    
+     def __str__(self): 
+        return ""Employee({0}, {1})"".format(self.name,self.age) 
+ 
+emp = Employee(""John"", 24) 
+print(emp)","class Employee: 
+    def __init__(self, name, age): 
+        self.name = name 
+        self.age = age",Employee,1,20
+1781,OOP,Generate a class in Python using the parameters provided in the following Input section.,"class ___:
+    def __init__(self, Name, Age, Gender):
+        self.Name = Name
+        self.Age = Age
+        self.Gender = Gender","class_name = ""Person""
+attributes = [""Name"", ""Age"", ""Gender""]",Person,1,20
+1797,OOP,Transform the code snippet into a Python class.,"class ___:
+    def __init__(self):
+        pass
+
+    def multiply(self, x, y):
+        return x * y","def multiply(x, y):
+    return x * y",Calculator,1,20
+1871,OOP,"Generate a new Python class which extends some existing class, but with a modified constructor.","class ___(A):
+    def __init__(self, param1, param2, param3):
+        super().__init__(param1, param2)
+        self.param3 = param3","class A:
+    def __init__(self, param1, param2):
+        self.param1 = param1
+        self.param2 = param2",B,1,20
+2023,OOP,Complete the Python class below so that it can calculate the sum of two integers.,"class ___:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+        
+    def add(self):
+        return self.x + self.y","class Sum:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y",Sum,1,20
+2112,OOP,Write a Python class to represent a polynomial of degree n.,"class ___:
+    def __init__(self, coeff):
+        self.coeff = coeff
+
+    def __call__(self, x):
+        result = 0
+        for idx, c in enumerate(self.coeff):
+            result += c * x ** idx
+        return result",<no input>,Polynomial,1,20
+2201,OOP,What is the purpose of the method in line 4 of the code?,"The purpose of the method ___ line 4 is to generate a random number within the given range of min and max. It uses the Python's random.range() method which returns a random integer from the range of min to max, inclusive.","def random_number_generator(min, max):
+  """"""Return a random number between the given range.""""""
+  rng = random.range(min, max)
+  return rng",in,1,20
+2208,OOP,"using the following Json as an example, write a Python program that reads this Json into an object.","import json
+
+# example data
+data = '{""id"":1,""name"":""Testing"",""description"":""This is a test""}'
+
+# parse data into a Python object ___ = json.loads(data)
+
+print(obj)","{
+   ""id"":1,
+   ""name"":""Testing"",
+   ""description"":""This is a test""
+}",obj,1,20
+2282,OOP,Create a class in Python that takes two arguments a 'name' and 'age' and returns a greeting.,"class ___:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def get_greeting(self):
+        return f""Hello, my name is {self.name} and I am {self.age} years old.""",-,Greeting,1,20
+2456,OOP,Construct a Python class that takes a given number and calculates the sum of the digits.,"class ___:
+    
+    def __init__(self, num):
+        self.num = num
+    
+    def calculate_sum_of_digits(self):
+        total = 0
+        for ch in str(self.num):
+            total += int(ch)
+        return total
+
+digit_sum = SumOfDigits(6342)
+result = digit_sum.calculate_sum_of_digits()
+print(result)",6342,SumOfDigits,1,20
+2520,OOP,Create a python class that simulates an invoice with information about the item and the cost.,"class ___:
+    def __init__(self, item, price):
+        self.item = item
+        self.price = price
+    
+    def get_item(self):
+        return self.item
+    
+    def get_price(self):
+        return self.price
+
+invoice = Invoice(""Pen"", 3)","Example of an Invoice:
+
+Item: Pen
+Price: $3",Invoice,1,20
+2577,OOP,Design a class in Python to store details of a person,"class ___:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+person = Person('John', 34)","Name: John
+Age: 34",Person,1,20
+2782,OOP,Design a class in Python to represent a circle.,"class ___:
+    """"""Class to represent a circle.""""""
+    def __init__(self, radius):
+        """"""Initialize the circle.""""""
+        self.radius = radius
+
+    def get_area(self):
+        """"""Calculate and return the area of the circle.""""""
+        return 3.14 * self.radius * self.radius",< noinput >,Circle,1,20
+3142,OOP,Construct a Python class with the following atributes and methods.,"class ___:
+    def __init__(self):
+        self.name = """"
+        self.ID = 0
+ 
+    def setName(self, name):
+        self.name = name
+    
+    def setID(self, ID):
+        self.ID = ID
+ 
+    def getName(self):
+        return self.name
+ 
+    def getID(self):
+        return self.ID","Attributes: name, ID
+Methods: setName, setID, getName, getID",MyClass,1,20
+3380,OOP,Create a class in python that finds the sum of two numbers.,"class ___:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    
+    def find_sum(self):
+        return self.x + self.y
+        
+if __name__ == '__main__':
+    s = Sum(10, 5)
+    print(s.find_sum())",No input,Sum,1,20
+3441,OOP,Create a class in Python to generate a calendar.,"class ___(object):
+
+    def __init__(self, name):
+        self.name = name
+
+    def generate_calendar(self):
+        calendar = []
+
+        # Code to generate a calendar goes here
+
+        return calendar
+
+calendar = CalendarGenerator(calendarName)
+calendar.generate_calendar()","calendarName = ""My Calendar""",CalendarGenerator,1,20
+3483,OOP,Create a class in Python to handle the following Student object.,"class ___:
+    def __init__(self, name, age, marks):
+        self.name = name
+        self.age = age
+        self.marks = marks
+        
+    def get_name(self):
+        return self.name
+    
+    def get_age(self):
+        return self.age
+    
+    def get_total_marks(self):
+        return sum(self.marks)","Name: John
+Age: 20
+Marks: [80, 90, 85, 100]",Student,1,20
+3924,OOP,Rewrite a given Java class using Python syntax.,"class ___:
+ def __init__(self, x, y):
+  self.x = x
+  self.y = y","Java class MyClass with fields ""x"" and ""y"":
+
+public class MyClass {
+ int x;
+ int y;
+
+ public MyClass(int x, int y) {
+  this.x = x;
+  this.y = y;
+ }
+}",MyClass,1,20
+3963,OOP,Create a Python class with the given attributes and functions.,"class ___:
+    
+    def __init__(self, name, age, email):
+        self.name = name
+        self.age = age
+        self.email = email
+    
+    def toString(self):
+        return f""Name: {self.name}, Age: {self.age}, Email: {self.email}""","Attributes: name (string), age (integer), email address (string)
+Function: toString() - return a string with the formatted attributes",Person,1,20
+4017,OOP,Generate a class in Python that can store the following data,"class ___:
+    def __init__(self, month, calories, minutes):
+        self.month = month
+        self.calories = calories
+        self.minutes = minutes","Month, Calories, Exercise Minutes",HealthData,1,20
+4276,OOP,Develop an object orientated program in Python to generate random numbers.,"import random
+
+class ___:
+    def __init__(self, low, high):
+        self.low = low
+        self.high = high
+    
+    def generate_rand_num(self):
+        return random.randint(self.low, self.high)
+
+if __name__ == '__main__':
+    gen = RandNumGenerator(10, 50)
+    print(gen.generate_rand_num())",Range: 10-50,RandNumGenerator,1,20
+4291,OOP,Create a class in Python that can represent a 3D point with the given fields.,"class ___:
+  def __init__(self, x, y, z):
+    self.x = x
+    self.y = y
+    self.z = z
+
+  def __str__(self):
+    return 'Point3D is at {x}, {y}, {z}'.format(x = self.x, y = self.y, z = self.z)",x y and z coordinates,Point3D,1,20
+4321,OOP,Create a class in Python which takes an employee name and salary as parameters and prints them.,"class ___:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+    
+    def print_employee_details(self):
+        print('Employee Name: {}, Salary: {}'.format(self.name, self.salary))
+
+employee = Employee('John Smith', 5000)
+employee.print_employee_details()","Employee Name: John Smith, Salary: 5000",Employee,1,20
+4340,OOP,Format a numerical table of data into a JSON object in Python.,"Assuming the numerical table of data is stored in a 2D list data, a function to format it into a JSON object ___ be written as follows:
+
+import json
+def formatData2JSON(data):
+    json_formatted_data = json.dumps(data)
+    return json_formatted_data",Numerical table of data.,can,1,20
+4380,OOP,Design a class in Python that implements a stack,"class ___:
+    def __init__(self):
+        self.items = []
+    
+    def isEmpty(self):
+        return self.items == []
+    
+    def push(self, item):
+        self.items.append(item)
+    
+    def pop(self):
+        return self.items.pop()
+    
+    def peek(self):
+        return self.items[len(self.items)-1]
+    
+    def size(self):
+        return len(self.items)",No input,Stack,1,20
+4742,OOP,Design a python class to store fruit and its quantity in a grocery store.,"class ___:
+    def __init__(self):
+        self.items = {
+            'Banana': 200,
+            'Orange': 300,
+            'Grapes': 500
+        }
+
+    def get_item_quantity(self, item):
+        return self.items.get(item)","Banana - 200
+Orange - 300
+Grapes - 500",FruitGrocery,1,20
+5493,OOP,Write a Python class that takes 2 strings as arguments and prints them out in a concatenated form.,"class ___:
+    def __init__(self, string1, string2):
+        self.string1 = string1
+        self.string2 = string2
+
+    def print_concat(self):
+        print(self.string1 + self.string2)","string1 = ""Hello"" 
+string2 = ""World""",ConcatStrings,1,20
+5552,OOP,Use the given data structure to create a python class.,"class ___:
+    def __init__(self, data):
+        self.name = data['name']
+        self.age = data['age']
+        self.city = data['city']","data = { 
+   ""name"": ""John Doe"",
+   ""age"": 30,
+   ""city"": ""London""
+}",Person,1,20
+5822,OOP,Create a Python class that has the following functionality.,"class ___:
+    def containsVowels(self, s):
+        vowels = set('aeiouAEIOU')
+        for letter in s:
+            if letter in vowels:
+                return True
+        return False",Create a class with a method to check if a given string contains any vowels or not.,StringChecker,1,20
+5908,OOP,Create a class in Python to represent a circle containing methods to calculate the area and circumference.,"class ___:
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return 3.14 * self.radius * self.radius
+
+    def circumference(self):
+        return 2 * 3.14 * self.radius",-,Circle,1,20
+5925,OOP,"Develop a Python class to represent an employee with name, position and salary.","class ___:
+    def __init__(self, name, position, salary):
+        self.name = name
+        self.position = position
+        self.salary = salary
+
+john = Employee('John', 'Software Engineer', 6000)","The employee is named 'John', he is a software engineer and he earns 6000$ per month.",Employee,1,20
+6033,OOP,Write a Python program to generate a Python Class using the given description.,"class ___:
+ def __init__(self, name, age, height):
+ self.name = name
+ self.age = age
+ self.height = height
+ 
+ def get_name(self):
+ return self.name
+ 
+ def get_age(self):
+ return self.age
+ 
+ def get_height(self):
+return self.height","description = ""This class should store the name, age, and height of a person.""",Person,1,20
+6218,OOP,"Create a class in Python that inherits from the given base class, and implements the given interface.","class ___:
+    def __init__(self, name):
+        self.name = name
+
+class Cat(Animal):
+    def eat(self, food):
+        print(""{} is eating {}!"".format(self.name, food))","BaseClass: Animal
+Interface: eat(food)",Animal,1,20
+6277,OOP,Develop a class in Python to keep track of stock prices,"class ___:
+  def __init__(self, symbol):
+    self.symbol = symbol
+    self.prices = []
+ 
+  def add_price(self, price):
+    self.prices.append(price)
+ 
+  def get_prices(self):
+    return self.prices
+      
+AAPL = Stock('AAPL')
+AAPL.add_price(191.43)
+AAPL.add_price(193.57)
+AAPL.add_price(190.08)
+AAPL.get_prices()",Symbol: AAPL,Stock,1,20
+6549,OOP,Generate a class in Python with the given properties and methods.,"class ___:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def getInfo(self):
+        return ""Name: {}, Age: {}"".format(self.name, self.age)","Class Name: Student
+Properties:
+Name - String
+Age - Integer
+Methods:
+getInfo() - Returns a string with student's name and age",Student,1,20
+6614,OOP,Write a class definition in python that will initialize an object of the class with given parameters,"class ___:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age","name, age",Person,1,20
+6690,OOP,Generate a Python code to create a class which creates an empty dictionary with the given keys.,"class ___:
+    def __init__(self, keys):
+        self.keys = [k.strip() for k in keys.split("","")]
+        self.dictionary = {k: None for k in self.keys}
+            
+    def get_dictionary(self):
+        return self.dictionary","""name, age""",EmptyDictionary,1,20
+6757,OOP,Write a class that implements the singleton pattern in Python.,"class ___:
+    instance = None
+
+    @staticmethod
+    def get_instance():
+        if Singleton.instance is None:
+            Singleton.instance = Singleton()
+        return Singleton.instance",No input,Singleton,1,20
+6800,OOP,Provide a valid Python class definition that uses the below given values.,"class ___:
+    def __init__(self, speed, color):
+        self.speed = speed
+        self.color = color
+
+    def set_speed(self, speed):
+        self.speed = speed
+    
+    def set_color(self, color):
+        self.color = color","Class_name = 'Automobile'
+ attributes  = 'speed' , 'color'
+ methods = 'set_speed', 'set_color'",Automobile,1,20
+6889,OOP,Develop a class in Python to optimize the existing code.,"class ___():
+  def __init__(self, message):
+    self.message = message
+    
+  def display_message(self):
+    print(self.message)
+    
+message = input('Enter a message: ')
+display_obj = Display(message)
+display_obj.display_message()","def display_message(message):
+  print(message)
+
+display_message('Hello World!')",Display,1,20
+7182,OOP,Create a class in Python to store user information with the given attributes.,"class ___:
+    def __init__(self, username, email, profile_picture):
+        self.username = username
+        self.email = email
+        self.profile_picture = profile_picture","Attributes- username, email, profile_picture",UserInformation,1,20
+7206,OOP,Use a given class to deserialize a JSON response into a Python dictionary.,"class ___(Deserializer):
+    def deserialize(self, response):
+        return json.loads(response)
+
+deserializer = MyDeserializer()
+deserialized_data = deserializer.deserialize(response)
+
+print(deserialized_data)","import json
+from some_library import Deserializer
+
+class MyDeserializer(Deserializer):
+    pass
+
+response = '{""data"": ""abc""}'",MyDeserializer,1,20
+7267,OOP,Generate a Python class with the following variables.,"class ___:
+  def __init__(self, name, job, age):
+    self.name = name
+    self.job = job
+    self.age = age","name, job, age",Person,1,20
+7364,OOP,Generate a valid python class that captures person information,"class ___:
+    def __init__(self, name, age, gender, nationality):
+        self.name = name
+        self.age = age
+        self.gender = gender
+        self.nationality = nationality
+ 
+    def __str__(self):
+        return 'Name: {}\nAge: {}\nGender: {}\nNationality: {}'.format(
+            self.name, self.age, self.gender, self.nationality)","Name, Age, Gender, Nationality",Person,1,20

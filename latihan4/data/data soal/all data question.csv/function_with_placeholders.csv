@@ -1,4 +1,4 @@
-question_id,material,Instruction,Template,Input,correct_answer,attempts,duration
+question_id,material,instruction,template,input,correct_answer,attempts,duration
 14,Function,Generate a function in Python to convert a given integer to its binary representation.,"def ___(n): 
   
     if n > 1: 
