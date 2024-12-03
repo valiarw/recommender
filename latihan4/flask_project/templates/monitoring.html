@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoring Sistem Rekomendasi</title>
+</head>
+<body>
+    <header>
+        <h1>Monitoring Sistem Rekomendasi</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Informasi Pengguna</h2>
+            <p>Nama Pengguna: {{ user.name }}</p>
+            <p>Progress: {{ user.progress }}%</p>
+            <p>Rekomendasi Terbaru: {{ user.recommendation }}</p>
+        </section>
+        <section>
+            <h2>Statistik Belajar</h2>
+            <ul>
+                <li>Total Latihan Dikerjakan: {{ stats.total_exercises }}</li>
+                <li>Total Materi yang Direkomendasikan: {{ stats.total_recommendations }}</li>
+                <li>Materi yang Sudah Dikuasai: {{ stats.mastered_materials }}</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
